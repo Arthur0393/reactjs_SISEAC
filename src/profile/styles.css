@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-image {
+  text-align: left;
+}
+
+.profile-image img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 35%;
+}
+
+.profile-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.nameText {
+  font-size: 1.3rem;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.profile-field label {
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.profile-field input,
+.profile-field textarea {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-field textarea {
+  resize: vertical;
+}
+
+h2 {
+  text-align: center;
+}
